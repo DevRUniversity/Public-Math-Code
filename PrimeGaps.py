@@ -1,5 +1,3 @@
-# Code made by Devon R,
-
 import sympy
 import numpy
 import matplotlib.pyplot as p1
