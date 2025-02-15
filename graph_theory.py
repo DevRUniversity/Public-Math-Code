@@ -30,6 +30,7 @@ G.add_edges_from(edges)
 
 def graph_draw(G, Counter):
     #https://networkx.org/documentation/stable/reference/generated/networkx.drawing.nx_pylab.draw_kamada_kawai.html
+    #this one looks the best so I went with it
     #various layouts can be utilized here
     RatioOfProgression = float(Counter / COUNTER_LIMIT)
     nx.draw(G,  pos=nx.kamada_kawai_layout(G), node_size=5)
